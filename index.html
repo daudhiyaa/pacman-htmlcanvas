@@ -1,0 +1,43 @@
+<!-- https://www.youtube.com/watch?v=5IMXpp3rohQ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pacman Game</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: black;
+        padding: 20px;
+      }
+      p {
+        color: whitesmoke;
+        font-family: sans-serif;
+        font-size: large;
+        margin-bottom: 9px;
+      }
+      div {
+        display: flex;
+        gap: 10px;
+        justify-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>
+        <span>Score: </span>
+        <span id="scoreEl">0</span>
+      </p>
+      <p id="gameStatus"></p>
+    </div>
+    <canvas></canvas>
+    <script src="js/index.js"></script>
+  </body>
+</html>
